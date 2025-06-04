@@ -1,8 +1,10 @@
 import { Composition } from "remotion";
 import { Main } from "./MyComp/Main";
+import { RedditStyleMain } from "./reddit/Main";
 import {
   COMP_NAME,
   defaultMyCompProps,
+  defaultRedditStyleProps,
   DURATION_IN_FRAMES,
   VIDEO_FPS,
   VIDEO_HEIGHT,
@@ -33,6 +35,16 @@ export const RemotionRoot: React.FC = () => {
           outProgress: 0,
         }}
       />
+<Composition
+  id="RedditStyle"
+  component={RedditStyleMain}
+  durationInFrames={DURATION_IN_FRAMES}
+  fps={VIDEO_FPS}
+  width={VIDEO_WIDTH}
+  height={VIDEO_HEIGHT}
+  defaultProps={defaultRedditStyleProps}
+/>
+
     </>
   );
 };

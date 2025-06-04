@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@remotion/bundler": "4.0.306",
+    "@remotion/captions": "4.0.310",
     "@remotion/cli": "4.0.306",
     "@remotion/google-fonts": "4.0.306",
     "@remotion/lambda": "4.0.306",
@@ -25,8 +26,9 @@
     "zod": "3.22.3"
   },
   "devDependencies": {
-    "@remotion/eslint-plugin": "4.0.306",
     "@eslint/eslintrc": "3.1.0",
+    "@next/eslint-plugin-next": "15.1.6",
+    "@remotion/eslint-plugin": "4.0.306",
     "@types/node": "20.12.14",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
@@ -34,7 +36,6 @@
     "autoprefixer": "10.4.20",
     "dotenv": "16.0.3",
     "eslint": "9.19.0",
-    "@next/eslint-plugin-next": "15.1.6",
     "eslint-config-next": "15.1.6",
     "postcss": "8.4.47",
     "prettier": "3.3.3",

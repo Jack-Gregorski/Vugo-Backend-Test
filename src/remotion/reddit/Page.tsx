@@ -5,7 +5,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { TheBoldFont } from "../load-font";
+import { TheBoldFont } from "./load-font";
 import { fitText } from "@remotion/layout-utils";
 import { makeTransform, scale, translateY } from "@remotion/animation-utils";
 import { TikTokPage } from "@remotion/captions";

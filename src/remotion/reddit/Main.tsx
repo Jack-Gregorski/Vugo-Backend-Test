@@ -41,7 +41,10 @@ export const RedditStyleMain: React.FC<{
     <AbsoluteFill>
       {/* Background video */}
       <OffthreadVideo
-        src={backgroundUrl ?? "/minecraft_cut.mp4"}
+        src={backgroundUrl ?? "/background.mp4"}
+        onError={(e) => {
+    console.error("Video error:", e);
+  }}
         style={{ objectFit: "cover" }}
         startFrom={0}
         playbackRate={1}

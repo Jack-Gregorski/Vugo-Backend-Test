@@ -45,7 +45,8 @@ export const defaultRedditStyleProps: z.infer<typeof RedditStyleProps> = {
       confidence: 1,
     },
   ],
-  audioUrl: "/placeholder.mp3",
+  audioUrl: "/script.mp3",
+  backgroundUrl: "/background.mp4"
 };
 
 export const DURATION_IN_FRAMES = 200;
